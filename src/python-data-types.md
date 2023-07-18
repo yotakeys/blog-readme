@@ -22,7 +22,8 @@ built in data type is a data type that has been provided and can be used by Pyth
 - -> set : set
 - -> none : none
 
-### Integer
+
+##### Integer
 python data type to handle/store integer value
 
 ```py
@@ -39,7 +40,7 @@ print(n * n)
 # print 100
 ```
 
-### Float
+##### Float
 python data type to handle/store float value
 ```py
 n = float()
@@ -55,7 +56,7 @@ print(n * n)
 # print 110.25
 ```
 
-### String
+##### String
 python data type to handle/store text/string value
 
 ```py
@@ -78,7 +79,7 @@ print(n[2])
 # print "t"
 ```
 
-### Boolean
+##### Boolean
 python data type to handle/store boolean value (true/false), True is 1 and false is 0
 ```py
 n = bool()
@@ -94,7 +95,7 @@ elif not n:
 # print True
 ```
 
-### List
+##### List
 python data type to handle/store sequence/many value, list can store different data types in it. you can acces value of list member using the index. List is mutable, it means you can change the value inside the list using thei ndex
 
 ```py
@@ -114,7 +115,7 @@ print(n[0] + n[1] + n[3])
 # print "python is the best"
 ```
 
-### Tuple
+##### Tuple
 tuple is actually the same as list, the differences is tuple is immutable, or you can't reassign the value unlike list.
 
 ```py
@@ -137,7 +138,7 @@ n[2] = 10
 # print error "'tuple' object does not support item assignment"
 ```
 
-### Set
+##### Set
 python data type to handle a set data, set data type can't have a duplicate value. Set data type cant be accesed using index like list or tupple, set data type usually justu used to check if the value is already present or not.
 
 ```py
@@ -154,7 +155,7 @@ print(1 in n)
 # print True
 ```
 
-### Dictionary
+##### Dictionary
 python data type to handle/store key-value map. in this type every value not accesed using index, but accesed using the key of value. the value can be different data types like tuple and list.
 
 ```py
@@ -179,12 +180,13 @@ print(n)
 # print {'key1': {'key1_1': 1, 'key1_2': 2}, 'key2': ' is the ', 'key3': ' best'}
 ```
 
-### None
+##### None
 python data type to define null value
 
 ```py
 <class 'NoneType'>
 ```
+
 
 ### Conclusion
 There are so many data types in python, you can use it base on your needs.
